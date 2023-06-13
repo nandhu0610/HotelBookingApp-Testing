@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Login" class="navigator-link">
+              <span class="suite-name border-failed">Login</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Login" class="navigator-link ">
+                    <span>Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\testrunner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Login" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Login" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Login" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Login" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Login" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Login" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 3 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Login" class="hide-methods failed suite-Login"> (hide)</a> <!-- hide-methods failed suite-Login -->
+                      <a href="#" panel-name="suite-Login" class="show-methods failed suite-Login"> (show)</a> <!-- show-methods failed suite-Login -->
+                    </span>
+                    <div class="method-list-content failed suite-Login">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC103" class="method navigator-link" hash-for-method="TestCase103(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, -5.0, -3.0)">TestCase103(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, -5.0, -3.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC108" class="method navigator-link" hash-for-method="TestCase108(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">TestCase108(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC110" class="method navigator-link" hash-for-method="TestCase110(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)">TestCase110(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Login -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Login" class="hide-methods passed suite-Login"> (hide)</a> <!-- hide-methods passed suite-Login -->
+                      <a href="#" panel-name="suite-Login" class="show-methods passed suite-Login"> (show)</a> <!-- show-methods passed suite-Login -->
+                    </span>
+                    <div class="method-list-content passed suite-Login">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC101" class="method navigator-link" hash-for-method="TestCase101(snsnsnsnsn, snsnsnsnsn)">TestCase101(snsnsnsnsn, snsnsnsnsn)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC102" class="method navigator-link" hash-for-method="TestCase102(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 7.0, 6.0)">TestCase102(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 7.0, 6.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC104" class="method navigator-link" hash-for-method="TestCase104(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">TestCase104(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC105" class="method navigator-link" hash-for-method="TestCase105(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">TestCase105(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC106" class="method navigator-link" hash-for-method="TestCase106(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 3 - Three, 1 - One, 0 - None, 0.0, 1.0)">TestCase106(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 3 - Three, 1 - One, 0 - None, 0.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC107" class="method navigator-link" hash-for-method="TestCase107(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">TestCase107(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC109" class="method navigator-link" hash-for-method="TestCase109(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">TestCase109(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC111" class="method navigator-link" hash-for-method="TestCase111(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)">TestCase111(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="testcases.TC112" class="method navigator-link" hash-for-method="TestCase112(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)">TestCase112(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Login -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Login" class="panel Login">
+          <div class="suite-Login-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC108</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase108(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">
+                  </a> <!-- TestCase108(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0) -->
+                  <span class="method-name">TestCase108</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Total price shown is wrong expected [125] but found [135]
+	at testcases.TC108.TestCase108(TC108.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-failed -->
+          <div class="suite-Login-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC103</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase103(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, -5.0, -3.0)">
+                  </a> <!-- TestCase103(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, -5.0, -3.0) -->
+                  <span class="method-name">TestCase103</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, -5.0, -3.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: test case failed expected [Check-In Date should not be in past] but found []
+	at testcases.TC103.TestCase103(TC103.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-failed -->
+          <div class="suite-Login-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC110</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase110(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)">
+                  </a> <!-- TestCase110(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0) -->
+                  <span class="method-name">TestCase110</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Total price shown is wrong expected [850] but found [435]
+	at testcases.TC110.TestCase110(TC110.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-failed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC105</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase105(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">
+                  </a> <!-- TestCase105(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0) -->
+                  <span class="method-name">TestCase105</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC111</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase111(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)">
+                  </a> <!-- TestCase111(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0) -->
+                  <span class="method-name">TestCase111</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC109</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase109(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">
+                  </a> <!-- TestCase109(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0) -->
+                  <span class="method-name">TestCase109</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC102</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase102(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 7.0, 6.0)">
+                  </a> <!-- TestCase102(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 7.0, 6.0) -->
+                  <span class="method-name">TestCase102</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 7.0, 6.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC106</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase106(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 3 - Three, 1 - One, 0 - None, 0.0, 1.0)">
+                  </a> <!-- TestCase106(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 3 - Three, 1 - One, 0 - None, 0.0, 1.0) -->
+                  <span class="method-name">TestCase106</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 3 - Three, 1 - One, 0 - None, 0.0, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC104</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase104(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">
+                  </a> <!-- TestCase104(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0) -->
+                  <span class="method-name">TestCase104</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC101</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase101(snsnsnsnsn, snsnsnsnsn)">
+                  </a> <!-- TestCase101(snsnsnsnsn, snsnsnsnsn) -->
+                  <span class="method-name">TestCase101</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC112</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase112(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)">
+                  </a> <!-- TestCase112(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0) -->
+                  <span class="method-name">TestCase112</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC107</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase107(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)">
+                  </a> <!-- TestCase107(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0) -->
+                  <span class="method-name">TestCase107</span>
+                  <span class="parameters">(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+        </div> <!-- panel Login -->
+        <div panel-name="test-xml-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\testrunner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Login&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Hotel Booking website testing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC101&quot;/&gt;
+      &lt;class name=&quot;testcases.TC102&quot;/&gt;
+      &lt;class name=&quot;testcases.TC103&quot;/&gt;
+      &lt;class name=&quot;testcases.TC104&quot;/&gt;
+      &lt;class name=&quot;testcases.TC105&quot;/&gt;
+      &lt;class name=&quot;testcases.TC106&quot;/&gt;
+      &lt;class name=&quot;testcases.TC107&quot;/&gt;
+      &lt;class name=&quot;testcases.TC108&quot;/&gt;
+      &lt;class name=&quot;testcases.TC109&quot;/&gt;
+      &lt;class name=&quot;testcases.TC110&quot;/&gt;
+      &lt;class name=&quot;testcases.TC111&quot;/&gt;
+      &lt;class name=&quot;testcases.TC112&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Hotel Booking website testing --&gt;
+&lt;/suite&gt; &lt;!-- Login --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Hotel Booking website testing (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Login');
+function tableData_Login() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestCase103')
+data.setCell(0, 2, 'testcases.TC103')
+data.setCell(0, 3, 16761);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestCase110')
+data.setCell(1, 2, 'testcases.TC110')
+data.setCell(1, 3, 7281);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestCase111')
+data.setCell(2, 2, 'testcases.TC111')
+data.setCell(2, 3, 6677);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestCase108')
+data.setCell(3, 2, 'testcases.TC108')
+data.setCell(3, 3, 6573);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestCase104')
+data.setCell(4, 2, 'testcases.TC104')
+data.setCell(4, 3, 6537);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestCase107')
+data.setCell(5, 2, 'testcases.TC107')
+data.setCell(5, 3, 6498);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestCase105')
+data.setCell(6, 2, 'testcases.TC105')
+data.setCell(6, 3, 6220);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestCase102')
+data.setCell(7, 2, 'testcases.TC102')
+data.setCell(7, 3, 6188);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestCase112')
+data.setCell(8, 2, 'testcases.TC112')
+data.setCell(8, 3, 6149);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestCase106')
+data.setCell(9, 2, 'testcases.TC106')
+data.setCell(9, 3, 5658);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestCase109')
+data.setCell(10, 2, 'testcases.TC109')
+data.setCell(10, 3, 3606);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestCase101')
+data.setCell(11, 2, 'testcases.TC101')
+data.setCell(11, 3, 2147);
+window.suiteTableData['Login']= { tableData: data, tableDiv: 'times-div-Login'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Login">
+              </div> <!-- times-div-Login -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase108(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href="Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\src\test\resources\screenshot\Screenshot Wed-Jun-14-02-11-32-IST-2023.png">Screenshot Link</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase103(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, -5.0, -3.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href="Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\src\test\resources\screenshot\Screenshot Wed-Jun-14-02-10-05-IST-2023.png">Screenshot Link</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase110(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href="Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\src\test\resources\screenshot\Screenshot Wed-Jun-14-02-12-02-IST-2023.png">Screenshot Link</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC101</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">11731 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase101(snsnsnsnsn, snsnsnsnsn)</span>
+                <span class="method-start">14869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17090 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC102</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18595 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">29434 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase102(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 7.0, 6.0)</span>
+                <span class="method-start">29747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35943 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC103</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36888 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">46531 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase103(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, -5.0, -3.0)</span>
+                <span class="method-start">46802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64357 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC104</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">65329 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">77403 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase104(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                <span class="method-start">77627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84170 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC105</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">85008 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">94817 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase105(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                <span class="method-start">95022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101249 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC106</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">102210 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">111125 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase106(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 3 - Three, 1 - One, 0 - None, 0.0, 1.0)</span>
+                <span class="method-start">111357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117019 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC107</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">117886 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">126581 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase107(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Deluxe, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                <span class="method-start">126767 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133274 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC108</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">134275 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">143126 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase108(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                <span class="method-start">143305 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">150360 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC109</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">151230 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">159530 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase109(snsnsnsnsn, snsnsnsnsn, Sydney, Hotel Creek, Standard, 1 - One, 1 - One, 0 - None, 0.0, 1.0)</span>
+                <span class="method-start">159714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">163330 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC110</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">164208 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">172685 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase110(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</span>
+                <span class="method-start">172855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">180530 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC111</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">181302 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">190484 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase111(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</span>
+                <span class="method-start">190626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">197309 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC112</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">198044 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">file_assign</span>
+                <span class="method-start">206151 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase112(snsnsnsnsn, snsnsnsnsn, Paris, Hotel Creek, Super Deluxe, 2 - Two, 1 - One, 0 - None, 0.0, 1.0)</span>
+                <span class="method-start">206281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212433 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

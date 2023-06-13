@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href="Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\src\test\resources\screenshot\Screenshot Wed-Jun-14-02-10-05-IST-2023.png">Screenshot Link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\src\test\resources\screenshot\Screenshot Wed-Jun-14-02-11-32-IST-2023.png">Screenshot Link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\src\test\resources\screenshot\Screenshot Wed-Jun-14-02-12-02-IST-2023.png">Screenshot Link</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-14T02:09:02 IST" name="Login" finished-at="2023-06-14T02:12:35 IST" duration-ms="213361">
+    <groups>
+    </groups>
+    <test started-at="2023-06-14T02:09:02 IST" name="Hotel Booking website testing" finished-at="2023-06-14T02:12:35 IST" duration-ms="213361">
+      <class name="testcases.TC106">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC106@41beb473]" started-at="2023-06-14T02:10:44 IST" name="setUp" finished-at="2023-06-14T02:10:53 IST" duration-ms="8914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC106@41beb473]" started-at="2023-06-14T02:10:53 IST" name="file_assign" finished-at="2023-06-14T02:10:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase106(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC106@41beb473]" started-at="2023-06-14T02:10:53 IST" name="TestCase106" data-provider="test" finished-at="2023-06-14T02:10:59 IST" duration-ms="5658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase106 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC106@41beb473]" started-at="2023-06-14T02:10:59 IST" name="tearDown" finished-at="2023-06-14T02:11:00 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC106 -->
+      <class name="testcases.TC105">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC105@4d411036]" started-at="2023-06-14T02:10:27 IST" name="setUp" finished-at="2023-06-14T02:10:36 IST" duration-ms="9809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC105@4d411036]" started-at="2023-06-14T02:10:36 IST" name="file_assign" finished-at="2023-06-14T02:10:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase105(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC105@4d411036]" started-at="2023-06-14T02:10:37 IST" name="TestCase105" data-provider="test" finished-at="2023-06-14T02:10:43 IST" duration-ms="6220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase105 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC105@4d411036]" started-at="2023-06-14T02:10:43 IST" name="tearDown" finished-at="2023-06-14T02:10:44 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC105 -->
+      <class name="testcases.TC104">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC104@2db2dd9d]" started-at="2023-06-14T02:10:07 IST" name="setUp" finished-at="2023-06-14T02:10:19 IST" duration-ms="12074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC104@2db2dd9d]" started-at="2023-06-14T02:10:19 IST" name="file_assign" finished-at="2023-06-14T02:10:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase104(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC104@2db2dd9d]" started-at="2023-06-14T02:10:19 IST" name="TestCase104" data-provider="test" finished-at="2023-06-14T02:10:26 IST" duration-ms="6537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase104 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC104@2db2dd9d]" started-at="2023-06-14T02:10:26 IST" name="tearDown" finished-at="2023-06-14T02:10:27 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC104 -->
+      <class name="testcases.TC103">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC103@35293c05]" started-at="2023-06-14T02:09:39 IST" name="setUp" finished-at="2023-06-14T02:09:48 IST" duration-ms="9643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC103@35293c05]" started-at="2023-06-14T02:09:48 IST" name="file_assign" finished-at="2023-06-14T02:09:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase103(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC103@35293c05]" started-at="2023-06-14T02:09:48 IST" name="TestCase103" data-provider="test" finished-at="2023-06-14T02:10:05 IST" duration-ms="16761" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[-5.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[-3.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[test case failed expected [Check-In Date should not be in past] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: test case failed expected [Check-In Date should not be in past] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at testcases.TC103.TestCase103(TC103.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\src\test\resources\screenshot\Screenshot Wed-Jun-14-02-10-05-IST-2023.png">Screenshot Link</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase103 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC103@35293c05]" started-at="2023-06-14T02:10:06 IST" name="tearDown" finished-at="2023-06-14T02:10:07 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC103 -->
+      <class name="testcases.TC109">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC109@6d6bc158]" started-at="2023-06-14T02:11:33 IST" name="setUp" finished-at="2023-06-14T02:11:41 IST" duration-ms="8299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC109@6d6bc158]" started-at="2023-06-14T02:11:41 IST" name="file_assign" finished-at="2023-06-14T02:11:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase109(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC109@6d6bc158]" started-at="2023-06-14T02:11:41 IST" name="TestCase109" data-provider="test" finished-at="2023-06-14T02:11:45 IST" duration-ms="3606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase109 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC109@6d6bc158]" started-at="2023-06-14T02:11:45 IST" name="tearDown" finished-at="2023-06-14T02:11:46 IST" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC109 -->
+      <class name="testcases.TC108">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC108@352c308]" started-at="2023-06-14T02:11:16 IST" name="setUp" finished-at="2023-06-14T02:11:25 IST" duration-ms="8851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC108@352c308]" started-at="2023-06-14T02:11:25 IST" name="file_assign" finished-at="2023-06-14T02:11:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase108(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC108@352c308]" started-at="2023-06-14T02:11:25 IST" name="TestCase108" data-provider="test" finished-at="2023-06-14T02:11:32 IST" duration-ms="6573" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Total price shown is wrong expected [125] but found [135]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Total price shown is wrong expected [125] but found [135]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at testcases.TC108.TestCase108(TC108.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\src\test\resources\screenshot\Screenshot Wed-Jun-14-02-11-32-IST-2023.png">Screenshot Link</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase108 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC108@352c308]" started-at="2023-06-14T02:11:32 IST" name="tearDown" finished-at="2023-06-14T02:11:33 IST" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC108 -->
+      <class name="testcases.TC107">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC107@560513ce]" started-at="2023-06-14T02:11:00 IST" name="setUp" finished-at="2023-06-14T02:11:08 IST" duration-ms="8695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC107@560513ce]" started-at="2023-06-14T02:11:08 IST" name="file_assign" finished-at="2023-06-14T02:11:08 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase107(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC107@560513ce]" started-at="2023-06-14T02:11:08 IST" name="TestCase107" data-provider="test" finished-at="2023-06-14T02:11:15 IST" duration-ms="6498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase107 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC107@560513ce]" started-at="2023-06-14T02:11:15 IST" name="tearDown" finished-at="2023-06-14T02:11:16 IST" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC107 -->
+      <class name="testcases.TC102">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC102@5ca17ab0]" started-at="2023-06-14T02:09:20 IST" name="setUp" finished-at="2023-06-14T02:09:31 IST" duration-ms="10839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC102@5ca17ab0]" started-at="2023-06-14T02:09:31 IST" name="file_assign" finished-at="2023-06-14T02:09:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase102(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC102@5ca17ab0]" started-at="2023-06-14T02:09:31 IST" name="TestCase102" data-provider="test" finished-at="2023-06-14T02:09:38 IST" duration-ms="6188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase102 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC102@5ca17ab0]" started-at="2023-06-14T02:09:38 IST" name="tearDown" finished-at="2023-06-14T02:09:39 IST" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC102 -->
+      <class name="testcases.TC101">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC101@8ab78bc]" started-at="2023-06-14T02:09:02 IST" name="setUp" finished-at="2023-06-14T02:09:13 IST" duration-ms="11725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC101@8ab78bc]" started-at="2023-06-14T02:09:13 IST" name="file_assign" finished-at="2023-06-14T02:09:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase101(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC101@8ab78bc]" started-at="2023-06-14T02:09:17 IST" name="TestCase101" data-provider="test" finished-at="2023-06-14T02:09:19 IST" duration-ms="2147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase101 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC101@8ab78bc]" started-at="2023-06-14T02:09:19 IST" name="tearDown" finished-at="2023-06-14T02:09:20 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC101 -->
+      <class name="testcases.TC112">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC112@c00fff0]" started-at="2023-06-14T02:12:20 IST" name="setUp" finished-at="2023-06-14T02:12:28 IST" duration-ms="8107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC112@c00fff0]" started-at="2023-06-14T02:12:28 IST" name="file_assign" finished-at="2023-06-14T02:12:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase112(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC112@c00fff0]" started-at="2023-06-14T02:12:28 IST" name="TestCase112" data-provider="test" finished-at="2023-06-14T02:12:34 IST" duration-ms="6149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase112 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC112@c00fff0]" started-at="2023-06-14T02:12:34 IST" name="tearDown" finished-at="2023-06-14T02:12:35 IST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC112 -->
+      <class name="testcases.TC111">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC111@677dbd89]" started-at="2023-06-14T02:12:03 IST" name="setUp" finished-at="2023-06-14T02:12:12 IST" duration-ms="9182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC111@677dbd89]" started-at="2023-06-14T02:12:12 IST" name="file_assign" finished-at="2023-06-14T02:12:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase111(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC111@677dbd89]" started-at="2023-06-14T02:12:12 IST" name="TestCase111" data-provider="test" finished-at="2023-06-14T02:12:19 IST" duration-ms="6677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase111 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC111@677dbd89]" started-at="2023-06-14T02:12:19 IST" name="tearDown" finished-at="2023-06-14T02:12:20 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC111 -->
+      <class name="testcases.TC110">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC110@10027fc9]" started-at="2023-06-14T02:11:46 IST" name="setUp" finished-at="2023-06-14T02:11:54 IST" duration-ms="8477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="file_assign()[pri:0, instance:testcases.TC110@10027fc9]" started-at="2023-06-14T02:11:54 IST" name="file_assign" finished-at="2023-06-14T02:11:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_assign -->
+        <test-method signature="TestCase110(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double)[pri:0, instance:testcases.TC110@10027fc9]" started-at="2023-06-14T02:11:55 IST" name="TestCase110" data-provider="test" finished-at="2023-06-14T02:12:02 IST" duration-ms="7281" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snsnsnsnsn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Total price shown is wrong expected [850] but found [435]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Total price shown is wrong expected [850] but found [435]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at testcases.TC110.TestCase110(TC110.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="Y:\Nandhu Classes\Workspace\Mini_Project_TestNG\src\test\resources\screenshot\Screenshot Wed-Jun-14-02-12-02-IST-2023.png">Screenshot Link</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase110 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC110@10027fc9]" started-at="2023-06-14T02:12:02 IST" name="tearDown" finished-at="2023-06-14T02:12:03 IST" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC110 -->
+    </test> <!-- Hotel Booking website testing -->
+  </suite> <!-- Login -->
+</testng-results>

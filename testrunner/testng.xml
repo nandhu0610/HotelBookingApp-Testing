@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login">
+	<listeners>
+		<listener class-name="utilities.Listeners"/>
+	</listeners>
+	<test  name="Hotel Booking website testing" >
+		<classes>
+			<class name="testcases.TC101" />
+			<class name="testcases.TC102" />
+			<class name="testcases.TC103" />
+			<class name="testcases.TC104" />
+			<class name="testcases.TC105" />
+			<class name="testcases.TC106" />
+			<class name="testcases.TC107" />
+			<class name="testcases.TC108" />
+			<class name="testcases.TC109" />
+			<class name="testcases.TC110" />
+			<class name="testcases.TC111" />
+			<class name="testcases.TC112" />
+		</classes>
+	</test> 
+	
+</suite> <!-- Suite -->
